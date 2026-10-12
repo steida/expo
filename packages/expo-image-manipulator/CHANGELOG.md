@@ -1,5 +1,11 @@
 # Changelog
 
+## 58.0.14
+
+### Patch Changes
+
+- [Android] Fix `renderAsync()` rejecting with `JobCancellationException` when the context is released while the render is still pending, for example when a component using `useImageManipulator` unmounts mid-render. ([#50218](https://github.com/expo/expo/pull/50218) by [@dev-eyoungmin](https://github.com/dev-eyoungmin))
+
 ## 58.0.13
 
 ### Patch Changes

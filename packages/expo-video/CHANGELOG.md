@@ -1,5 +1,11 @@
 # Changelog
 
+## 58.0.10
+
+### Patch Changes
+
+- [iOS] Don't change the audio session category if compatible with the current intention - for example changing from `playAndRecord` to `playback`. Improves inter-package compatibility. ([#51408](https://github.com/expo/expo/pull/51408) by [@behenate](https://github.com/behenate))
+
 ## 58.0.9
 
 ### Patch Changes

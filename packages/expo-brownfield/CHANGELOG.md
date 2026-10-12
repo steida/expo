@@ -1,5 +1,13 @@
 # Changelog
 
+## 58.0.13
+
+### Patch Changes
+
+- [iOS][Internal] Define `ExpoBrownfieldModule` and `ExpoBrownfieldStateModule` with the `@ExpoModule`, `@SharedObject`, `@JS` and `@Event` macros instead of the module definition DSL. ([#51381](https://github.com/expo/expo/pull/51381) by [@tsapeta](https://github.com/tsapeta))
+- Updated dependencies. ([#51321](https://github.com/expo/expo/pull/51321))
+  - @expo/env@2.5.2
+
 ## 58.0.12
 
 ### Patch Changes

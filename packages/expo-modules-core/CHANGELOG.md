@@ -1,5 +1,15 @@
 # Changelog
 
+## 58.0.16
+
+### Patch Changes
+
+- [iOS] Update `expo-modules-macros` to 0.16.0, which supports closure arguments in `@JS` functions and initializers. ([#51037](https://github.com/expo/expo/pull/51037) by [@tsapeta](https://github.com/tsapeta))
+- [iOS] [Internal] Hold cached JavaScript values and the encoder and decoder state behind `JavaScriptRef`. ([#50978](https://github.com/expo/expo/pull/50978) by [@tsapeta](https://github.com/tsapeta))
+- [Android] Fix build errors with React Native nightlies by removing an unneeded `enableCppPropsIteratorSetter` check from Expo views. ([#51405](https://github.com/expo/expo/pull/51405) by [@Kudo](https://github.com/Kudo))
+- Updated dependencies. ([#51037](https://github.com/expo/expo/pull/51037), [#50977](https://github.com/expo/expo/pull/50977))
+  - expo-modules-jsi@58.0.11
+
 ## 58.0.15
 
 ### Patch Changes

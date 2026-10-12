@@ -1,5 +1,14 @@
 # Changelog
 
+## 58.0.12
+
+### Patch Changes
+
+- [Web] Fix statement finalization and failed-close recovery, same as #50121 on Android and iOS. ([#51293](https://github.com/expo/expo/pull/51293) by [@Kudo](https://github.com/Kudo))
+- [Web] Add `configureWeb()` with a `wasmURL` option to load a custom SQLite WebAssembly build, for example one built with FTS enabled. ([#51294](https://github.com/expo/expo/pull/51294) by [@Kudo](https://github.com/Kudo))
+- [Web] Fix `isInTransactionAsync()` returning `undefined` instead of `false` outside a transaction. ([#51356](https://github.com/expo/expo/pull/51356) by [@Kudo](https://github.com/Kudo))
+- [Web] Fix synchronous calls that lost the SQLite error message or failed on results longer than 255 bytes. ([#51330](https://github.com/expo/expo/pull/51330) by [@Kudo](https://github.com/Kudo))
+
 ## 58.0.11
 
 ### Patch Changes
